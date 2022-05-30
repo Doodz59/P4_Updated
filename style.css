@@ -96,6 +96,10 @@ a:hover {
     left: 0;
     right: 0;
 }
+.col-sm-12> img{
+    width: 100px;
+    height: 100px;
+}
 
 .texture-paper::before {
     background: url("img/texture-paper.webp");
@@ -126,7 +130,10 @@ a:hover {
     border-color: rgba(255, 255, 255, .2);
 }
 
-
+.navbar-brand >img{
+height: 40px;
+width: auto;
+}
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -322,7 +329,10 @@ a:hover {
 }
 
 ol > li{
-    padding: 2px;
+    /* padding: 2px; */
+    width: 25px;
+    height: 26px;
+    font-size: 14px;
 }
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
@@ -739,6 +749,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    max-width: 273px;
+    max-height: 350px;
 }
 
 .portfolio-row {
