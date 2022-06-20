@@ -17,10 +17,7 @@
     ol{
         list-style-type: none;
     }
-    a:hover {
-        text-decoration: none;
-        cursor: pointer;
-    }
+    
 
     #page-loading-blocs-notifaction {
         position: fixed;
@@ -662,9 +659,7 @@
         
     }
 
-    .container {
-        max-width: 1000px;
-    }
+   
 
     .hero-bloc-text {
         font-size: 38px;
